@@ -21,18 +21,38 @@ header{
 
 h1{
    color: #fff;
-   font-size: 60px;
+   font-size: 40px;
    font-style: normal;
    letter-spacing: -1px;
 }
 
 h2{
    color: #bbbbbb;
+   font-size: 30px;
 }
 
-header > img{
+header > a>  img{
   border-radius: 45%;
-  width: 200px;
+  width: 18%;
+}
+
+ul > li > a{
+  color: #ffffff;
+  font-size: 19px;
+  font-family: 'Fira Mono', monospace;
+  text-align:center;
+  font-weight: bold;
+  background-color: #182827;
+}
+
+ul > li > a:hover{
+  color:#000000 !important;
+  background-color: #266D5A;
+}
+
+figure  > embed{
+    max-width: 60%;
+    max-height: 60%;
 }
 
 .nopadding{
