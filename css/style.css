@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
 #particles-js{
+    position: absolute;
     width: 100%;
     height: 100%;
     background-color: #141410;
@@ -7,10 +10,32 @@
     background-repeat: no-repeat;
 }
 
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+header{
+  font-family: 'Fira Mono', monospace;
+}
+
 h1{
-   color: #dddddd;
+   color: #fff;
+   font-size: 60px;
+   font-style: normal;
+   letter-spacing: -1px;
 }
 
 h2{
    color: #bbbbbb;
+}
+
+header > img{
+  border-radius: 45%;
+  width: 200px;
+}
+
+.nopadding{
+  padding: 0 !important;
+  margin: 0 !important;
 }
