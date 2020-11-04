@@ -1,0 +1,36 @@
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #551010;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+canvas {
+  display: block;
+  /*vertical-align: bottom;*/
+}
+
+ul > li > a{
+  color: #ffffff;
+  font-size: 19px;
+  font-family: 'Fira Mono', monospace;
+  text-align:center;
+  font-weight: bold;
+  border-style: solid;
+  border-width:thin;
+  border-color: #ddd;
+  background-color: #000;
+}
+
+ul > li > a:hover{
+  color:#fff !important;
+  background-color: #444;
+}
+
+.nopadding{
+  padding: 0 !important;
+  margin: 0 !important;
+}

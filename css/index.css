@@ -12,7 +12,7 @@
 
 canvas {
   display: block;
-  vertical-align: bottom;
+  /*vertical-align: bottom;*/
 }
 
 header{
@@ -22,13 +22,20 @@ header{
 h1{
    color: #fff;
    font-size: 40px;
-   font-style: normal;
+   font-weight: bold;
    letter-spacing: -1px;
 }
 
 h2{
+  font-family: sans-serif;
    color: #bbbbbb;
    font-size: 30px;
+   letter-spacing: -2px;
+}
+
+h2.svg-title{
+  color: #fff;
+  font-family: monospace;
 }
 
 header > a>  img{
@@ -42,6 +49,9 @@ ul > li > a{
   font-family: 'Fira Mono', monospace;
   text-align:center;
   font-weight: bold;
+  border-style: solid;
+  border-width:thin;
+  border-color: #000;
   background-color: #182827;
 }
 
@@ -51,8 +61,8 @@ ul > li > a:hover{
 }
 
 figure  > embed{
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 65%;
+    max-height: 65%;
 }
 
 .nopadding{
