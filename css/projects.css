@@ -1,0 +1,19 @@
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #06414d;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+canvas {
+  display: block;
+  /*vertical-align: bottom;*/
+}
+
+.nopadding{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
