@@ -27,7 +27,7 @@ ul > li > a{
   
   ul > li > a:hover{
     color:#000000 !important;
-    background-color: #dee0e0;
+    background-color: #bbd8d8;
   }
 
   h1.title{
@@ -39,14 +39,30 @@ ul > li > a{
       margin-top: 2%;
       margin-left: 20%;
       margin-right: 20%;
-      color: #272727;
-      background-color: #dee0e0;
-      font-size: 20px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      border-style:solid;
-      border-width: thick;
-      box-shadow: #1f2331;
   }
+
+p > a:hover{
+      color: rgb(241, 0, 0);
+  }
+
+div.text-container{
+    color: #272727;
+    background-color: #dee0e0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style:solid;
+    border-width: thick;
+    box-shadow: #1f2331;
+    margin-bottom:0;
+
+}
+
+img {
+    width: 100px;
+    border-style: solid;
+    border-color: #000;
+    border-width: thin;
+}
 
 .nopadding{
     padding: 0 !important;
