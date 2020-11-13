@@ -27,7 +27,7 @@ h1{
 }
 
 h2{
-  font-family: sans-serif;
+  font-family: monospace,'Fira Mono',sans-serif;
    color: #bbbbbb;
    font-size: 30px;
    letter-spacing: -1px;
@@ -67,8 +67,8 @@ p.graph-info{
 }
 
 figure  > embed{
-    max-width: 65%;
-    max-height: 65%;
+    max-width: 60%;
+    max-height: 60%;
 }
 
 
