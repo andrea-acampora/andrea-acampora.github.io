@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
 #particles-js{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     background-color: #141410;
@@ -30,12 +30,12 @@ h2{
   font-family: sans-serif;
    color: #bbbbbb;
    font-size: 30px;
-   letter-spacing: -2px;
+   letter-spacing: -1px;
 }
 
 h2.svg-title{
   color: #fff;
-  font-family: monospace;
+  font-family: 'Fira Mono';
 }
 
 header > a>  img{
@@ -60,10 +60,17 @@ ul > li > a:hover{
   background-color: #266D5A;
 }
 
+p.graph-info{
+  color: rgb(158, 157, 157);
+  font-family: monospace;
+  font-style: italic;
+}
+
 figure  > embed{
     max-width: 65%;
     max-height: 65%;
 }
+
 
 .nopadding{
   padding: 0 !important;
